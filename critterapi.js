@@ -133,3 +133,8 @@ class CritterAPI
 		return this.errno;
 	}
 }
+
+if (!!module == true)
+{
+	module.exports = CritterAPI;
+}
